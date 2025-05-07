@@ -61,3 +61,23 @@ Approach 2 (working on with only ESP)/Firebase/
 ### Testing Data Collection
 
 See **Test data collection files/README.md** for how to run the 50-trial accuracy/FPR/latency test.
+
+## Tools & Environment
+
+- **Arduino IDE** (1.8+)
+- **ESP8266 Board Package** for Arduino
+- **Firebase Console** (Realtime Database)
+- **Node.js** (v14+)
+- **npm**
+- **VS Code** (used for development)
+- **Serial Monitor** (for data collection tests)
+
+## Hardware Components
+
+- **Arduino Uno** 
+- **ESP8266 NodeMCU** (used in both approaches)
+- **LDR Sensor (Photoresistor)** (for light detection)
+- **LEDs** (for transmitting OOK + CAP signals)
+- **Jumper wires** (for circuit connections)
+- **Breadboard** (for prototyping circuits)
+- **USB cables** (for programming and powering boards)
