@@ -1,0 +1,10 @@
+# Node.js deps
+node_modules/
+package-lock.json
+
+# Firebase Admin SDK secret
+serviceAccountKey.json
+
+# Arduino build outputs
+*.o
+*.elf
