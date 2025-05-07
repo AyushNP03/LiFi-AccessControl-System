@@ -1,0 +1,49 @@
+{
+  "accessLogs": {
+    "-OPctdhPCgZ28v_eYtae": {
+      "capBits": "101011",
+      "deviceId": "device_001",
+      "requestId": "req_test_1",
+      "status": "granted",
+      "timestamp": 1746590407583,
+      "userId": "user_1234"
+    },
+    "log_001": {
+      "capBits": "101011",
+      "deviceId": "device_001",
+      "status": "granted",
+      "timestamp": "2025-04-10T16:00:00Z",
+      "userId": "user_1234"
+    },
+    "log_002": {
+      "capBits": "110100",
+      "deviceId": "device_002",
+      "status": "denied",
+      "timestamp": "2025-04-10T16:05:00Z",
+      "userId": "user_5678"
+    }
+  },
+  "accessRequests": {
+    "req_test_1": {
+      "capBits": "101011",
+      "deviceId": "device_001",
+      "timestamp": 1746590407261
+    }
+  },
+  "userDevices": {
+    "device_001": {
+      "allowedCodes": {
+        "101011": true,
+        "110100": true
+      },
+      "userId": "user_1234"
+    },
+    "device_002": {
+      "allowedCodes": {
+        "101011": true,
+        "110100": false
+      },
+      "userId": "user_5678"
+    }
+  }
+}

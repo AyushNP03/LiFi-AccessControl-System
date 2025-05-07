@@ -1,0 +1,17 @@
+{
+    "rules": {
+      "userDevices": {
+        ".read":  true,
+        ".write": false
+      },
+      "accessRequests": {
+        ".read":  false,
+        ".write": true
+      },
+      "accessLogs": {
+        ".read":  true,
+        ".write": "auth != null && auth.admin === true"
+      }
+    }
+  }
+  
